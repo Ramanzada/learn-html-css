@@ -1,0 +1,84 @@
+body {
+    border: 7px solid black ;
+    font-family: sans-serif;
+}
+nav h1 {
+    background-color: rgba(128, 128, 128, 0.21);
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+.special-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    display: block;
+  text-align: center;
+  position: static;
+}
+.special-link:hover {
+    color: blueviolet;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+article {
+    padding: 1rem;
+    position: relative;
+    top: 10px;
+}
+article p {
+    font-size: 1.25rem;
+}
+article h2 {
+    text-transform: uppercase;
+}
+img {
+    margin-top: 10px;
+    border-radius: 25px;
+    border: 5px solid rgba(0, 0, 255, 0.5);
+}
+.price {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 255, 0.5);
+    font-weight: bold;
+}
+#free {
+    color: rgba(128, 128, 128, 0.5);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+article a:first-of-type {
+    color: black;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+article a:first-of-type:hover {
+    color: blue;
+    text-decoration: none;
+}
+h2, h4 {
+    font-size: 1.5rem;
+}
+article ul {
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    gap : 10px;
+}
+article ul li {
+    flex: 1;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.button-cart {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+}

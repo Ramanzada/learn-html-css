@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>The Basic Language of the Web: HTML</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -15,8 +16,8 @@
     <h6>The Basic Language of the Web: HTML</h6>
     -->
 
-    <header>
-      <h1>📘 The Code Magazine</h1>
+    <header class="main-header">
+      <h1 class="header-title">📘 The Code Magazine</h1>
 
       <nav>
         <a href="blog.html">Blog</a>
@@ -28,7 +29,7 @@
 
     <article>
       <header>
-        <h2>The Basic Language of the Web: HTML</h2>
+        <h2 class="header-title">The Basic Language of the Web: HTML</h2>
 
         <img
           src="img/laura-jones.jpg"
@@ -37,7 +38,9 @@
           width="50"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="auther">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="img/post-img.jpg"
@@ -59,7 +62,7 @@
         and why you too should learn it.
       </p>
 
-      <h3>What is HTML?</h3>
+      <h3 class="header-title">What is HTML?</h3>
       <p>
         HTML stands for <strong>H</strong>yper<strong>T</strong>ext
         <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
@@ -88,7 +91,7 @@
         >.
       </p>
 
-      <h3>Why should you learn HTML?</h3>
+      <h3 class="header-title">Why should you learn HTML?</h3>
 
       <p>
         There are countless reasons for learning the fundamental language of the
@@ -110,7 +113,7 @@
     </article>
 
     <aside>
-      <h4>Related posts</h4>
+      <h4 class="header-title">Related posts</h4>
 
       <ul>
         <li>
@@ -121,12 +124,12 @@
             width="75"
           />
           <a href="#">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-auther">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img src="img/related-2.jpg" alt="Lightning" width="75" heigth="75" />
           <a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-auther">By Jim Dillon</p>
         </li>
         <li>
           <img
@@ -136,11 +139,15 @@
             height="75"
           />
           <a href="#">Why JavaScript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-auther">By Matilda</p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by The Code Magazine.</footer>
+    <footer>
+      <p id="copyright" class="copyright text">
+        Copyright &copy; 2027 by The Code Magazine.
+      </p>
+    </footer>
   </body>
 </html>
